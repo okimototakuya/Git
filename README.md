@@ -6,3 +6,4 @@ Gitプロジェクト
 
 # Demo
 hoge-hoge
+foo-foo
