@@ -17,7 +17,7 @@ class TestHogeHoge(unittest.TestCase):
         '''
         '''
         x_1 = hoge_hoge.return_num()
-        x_2 = hoge_hoge.return_num()
+        x_2 = 2
         self.assertEqual(x_1, x_2)
 
 if __name__ == '__main__':
