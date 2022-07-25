@@ -29,4 +29,5 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with unittest
         run: |
+          python src/main/hoge_hoge.py
           python src/test/test_hoge_hoge.py
