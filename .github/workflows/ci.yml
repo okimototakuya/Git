@@ -1,0 +1,8 @@
+name: Continuous Integration
+on: push
+
+jobs:
+  unit-test:
+    name: Unit Test
+    runs-on: ubuntu-latest
+    steps:
