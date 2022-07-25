@@ -22,6 +22,7 @@ jobs:
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           python -c "import sys; sys.path.append('src/main/'); import hoge_hoge"
+          echo 'echo文を呼び出しました。'
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
